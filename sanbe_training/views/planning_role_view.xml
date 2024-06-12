@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="planning_role_training_view_tree" model="ir.ui.view">
+    <field name="name">planning_role_training.view.tree</field>
+    <field name="model">planning_role_training</field>
+    <field name="arch" type="xml">
+        <tree string="Planning Role">
+           <field name="active" column_invisible="1"></field> 
+           <field name="squence" widget="handle"></field> 
+           <field name="name"></field>
+           <field name="resource_ids" widget="manytomany_avatar_resource" optional="show"></field>
+           <field name="color" widget="color_picker" optional="hide"></field>
+        </tree>
+    </field>
+  </record>  
+
+<record id="planning_role_training_view_kanan" model="ir.ui.view">
+  <field name="name">planing_role_training.view.kanan</field>
+   <field name=""></field>
+</record>
+</odoo>

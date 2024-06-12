@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Arkana - Training",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "python": "D:\\training\\training\\Scripts\\python", // cari dengan which python3
+            "program": "D:\\odoo17\\server\\odoo-bin",
+            "args": [
+                "--config=D:\\training\\training.conf",
+                "--dev=xml",
+                // "--database=odoo17_arkana_training",
+                // "--update=nok_hr_payroll",
+                // "-i base"
+            ]
+        },
+    ]
+}
